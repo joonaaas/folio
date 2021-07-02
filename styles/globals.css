@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+	@font-face {
+		font-family: 'ExtraboldItalic';
+		src: url(../public/fonts/ExtraboldItalic.woff2) format('woff2');
+	}
+	@font-face {
+		font-family: 'Regular';
+		src: url(../public/fonts/Regular.woff2) format('woff2');
+	}
+}
