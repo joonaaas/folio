@@ -29,8 +29,8 @@ const Services = () => {
 					<List content='Responsive Design.' />
 					<List content='UX/UI Enhancement.' />
 					<List content='Theme Implementation.' />
-					<List content='Shopify Theme Development.' />
-					<List content='Logo/Image Enhancement.' />
+					<List content='Platform Migration.' />
+					<List content='Image Edit.' />
 					<List content='App Integration.' />
 					<div
 						className={`absolute top-0 left-0 w-full h-full transition-all ease-out bg-gradient-to-t from-white to-transparent  ${

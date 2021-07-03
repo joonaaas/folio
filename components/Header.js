@@ -1,4 +1,4 @@
-import Logo from './Logo';
+import Logo from '../public/svg/nas.svg';
 
 const Header = () => {
 	return (
@@ -6,7 +6,7 @@ const Header = () => {
 			<div className='pl-2.5 border-dashed border-b-3'></div>
 			<div className='w-full'>
 				<div className='flex items-center justify-between w-full border-black border-b-3 border-r-3'>
-					<div>
+					<div className='px-3 py-2 border-l-3 border-r-3'>
 						<Logo />
 					</div>
 					<div className='w-full px-4'>
