@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import 'tailwindcss/tailwind.css';
+// import 'tailwindcss/tailwind.css';
 import '../styles/globals.css';
 
 function MyApp({ Component, pageProps }) {
@@ -26,6 +26,7 @@ function MyApp({ Component, pageProps }) {
 				/>
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
+
 			<Component {...pageProps} />
 		</>
 	);
