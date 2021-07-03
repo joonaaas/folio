@@ -11,7 +11,7 @@ const WhoAmI = () => {
 				<p className='pr-2 text-4xl text-right text-green-dark'>developer</p>
 			</div>
 			<div className='flex items-center justify-center px-4 pt-4 mb-16'>
-				<div className='relative flex items-center justify-center mt-4 mb-2 filter drop-shadow-lg h-320 w-260 '>
+				<div className='relative flex items-center justify-center mt-4 mb-2 filter drop-shadow-lg h-320 w-260 opacity-5'>
 					<Image
 						src={profilePic}
 						alt='Picture of Me'
