@@ -10,6 +10,7 @@ import React from '../public/svg/react.svg';
 import Figma from '../public/svg/figma.svg';
 import Tailwindcss from '../public/svg/tailwindcss.svg';
 import Javascript from '../public/svg/javascript.svg';
+import Firefox from '../public/svg/firefox.svg';
 
 const Proficient = () => {
 	return (
@@ -31,10 +32,10 @@ const Proficient = () => {
 					<Figma className='w-12' />
 					<Illustrator className='w-16' />
 					<Photoshop className='w-16' />
-				</div>
-				<div className='grid items-center grid-cols-2 gap-6 px-4 mt-6 justify-items-center'>
-					<Liquid className='w-30' />
-					<Shopify className='w-30' />
+
+					<Shopify className='w-16' />
+					<Liquid className='w-24' />
+					<Firefox className='w-16' />
 				</div>
 			</div>
 		</Section>
