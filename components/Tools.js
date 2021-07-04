@@ -11,6 +11,7 @@ import Figma from '../public/svg/figma.svg';
 import Tailwindcss from '../public/svg/tailwindcss.svg';
 import Javascript from '../public/svg/javascript.svg';
 import Firefox from '../public/svg/firefox.svg';
+import Git from '../public/svg/git.svg';
 
 const Proficient = () => {
 	return (
@@ -29,9 +30,11 @@ const Proficient = () => {
 					<Vue className='w-16' />
 					<React className='w-16' />
 
+					<Git className='w-16' />
 					<Figma className='w-12' />
 					<Illustrator className='w-16' />
-					<Photoshop className='w-16' />
+
+					{/* <Photoshop className='w-16' /> */}
 
 					<Shopify className='w-16' />
 					<Liquid className='w-24' />
