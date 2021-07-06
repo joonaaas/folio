@@ -1,4 +1,4 @@
-import Section from './Section';
+import Container from './Container';
 import Liquid from '../public/svg/liquid.svg';
 import Shopify from '../public/svg/shopify.svg';
 import Illustrator from '../public/svg/illustrator.svg';
@@ -15,33 +15,36 @@ import Git from '../public/svg/git.svg';
 
 const Proficient = () => {
 	return (
-		<Section>
-			<div className='flex justify-between'>
-				<p>my·tools</p>
-				<p>003</p>
-			</div>
-			<div className='mt-10 mb-10'>
-				<div className='grid items-center grid-cols-3 gap-x-2 gap-y-6 justify-items-center'>
-					<Html className='w-16' />
-					<Css className='w-16' />
-					<Tailwindcss className='w-20' />
-
-					<Javascript className='w-16' />
-					<Vue className='w-16' />
-					<React className='w-16' />
-
-					<Git className='w-16' />
-					<Figma className='w-12' />
-					<Illustrator className='w-16' />
-
-					{/* <Photoshop className='w-16' /> */}
-
-					<Shopify className='w-16' />
-					<Liquid className='w-24' />
-					<Firefox className='w-16' />
+		<section className='border-b-3'>
+			<Container>
+				<div className='flex justify-between'>
+					<p>my·tools</p>
+					<p>003</p>
 				</div>
-			</div>
-		</Section>
+
+				<div className='pb-10 mt-10'>
+					<div className='grid items-center grid-cols-3 gap-x-2 gap-y-6 justify-items-center'>
+						<Html className='w-16' />
+						<Css className='w-16' />
+						<Tailwindcss className='w-20' />
+
+						<Javascript className='w-16' />
+						<Vue className='w-16' />
+						<React className='w-16' />
+
+						<Git className='w-16' />
+						<Figma className='w-12' />
+						<Illustrator className='w-16' />
+
+						{/* <Photoshop className='w-16' /> */}
+
+						<Shopify className='w-16' />
+						<Liquid className='w-24' />
+						<Firefox className='w-16' />
+					</div>
+				</div>
+			</Container>
+		</section>
 	);
 };
 

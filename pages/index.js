@@ -10,7 +10,7 @@ export default function Home() {
 	return (
 		<div className='font-regular'>
 			<Header />
-			<main className='px-2.5'>
+			<main className='px-2.5 xs:px-8 md:px-14 md2:px-20 lg:px-28'>
 				<WhoAmI />
 				<Services />
 				<Sample />

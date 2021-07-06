@@ -2,15 +2,17 @@ import Image from 'next/image';
 import Chat from '../public/images/chat.png';
 import Gmail from '../public/svg/gmail.svg';
 import Linkedin from '../public/svg/linkedin.svg';
+import Container from './Container';
 
 const Contact = () => {
 	return (
-		<section className='px-2 border-r-3 border-l-3 '>
+		<Container>
 			<div className='flex justify-between'>
 				<p>con·tact</p>
 				<p>004</p>
 			</div>
-			<div className='flex flex-col items-center justify-center pb-12 mt-10'>
+
+			<div className='flex flex-col items-center justify-center pb-12 mt-10 xxs:pb-24 xxs:mt-20 sm:mt-24 sm:pb-28'>
 				<div className='mb-2 w-28'>
 					<Image src={Chat} alt='Message me?' />
 				</div>
@@ -37,7 +39,7 @@ const Contact = () => {
 					</div>
 				</div>
 			</div>
-		</section>
+		</Container>
 	);
 };
 

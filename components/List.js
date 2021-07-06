@@ -3,7 +3,7 @@ import Check from '../public/svg/check.svg';
 
 const List = ({ content }) => {
 	return (
-		<li className='text-lg'>
+		<li className='text-lg xxs:pl-6 sm:pl-4'>
 			<div className='flex items-center'>
 				<div className='pl-6'>
 					<Check />
