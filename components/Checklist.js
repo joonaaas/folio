@@ -26,7 +26,7 @@ const Checklist = () => {
 						open ? 'opacity-5' : 'opacity-100'
 					}`}></div>
 			</ul>
-			{/* This will show on 640px */}
+			{/* This will show on >640px */}
 			<ul className='hidden sm:flex'>
 				<div>
 					<List content='Troubleshooting. ' />

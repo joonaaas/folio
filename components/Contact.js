@@ -7,17 +7,17 @@ import Container from './Container';
 const Contact = () => {
 	return (
 		<Container>
-			<div className='flex justify-between'>
+			<div className='flex justify-between px-2'>
 				<p>con·tact</p>
 				<p>004</p>
 			</div>
 
-			<div className='flex flex-col items-center justify-center pb-12 mt-10 xxs:pb-24 xxs:mt-20 sm:mt-24 sm:pb-28'>
+			<div className='flex flex-col items-center justify-center py-10 pb-12 sm:py-16 md2:py-20'>
 				<div className='mb-2 w-28'>
 					<Image src={Chat} alt='Message me?' />
 				</div>
-				<h2 className='text-2xl font-heading'>Need my help?</h2>
-				<p className='px-4 text-lg text-center'>
+				<h2 className='text-3xl font-heading'>Need my help?</h2>
+				<p className='px-4 text-lg text-center md:text-xl'>
 					Get in touch today if you’d like to work together!
 				</p>
 				<div className='flex items-center justify-center mt-4'>

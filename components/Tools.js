@@ -1,4 +1,5 @@
 import Container from './Container';
+import ContainerX from './ContainX';
 import Liquid from '../public/svg/liquid.svg';
 import Shopify from '../public/svg/shopify.svg';
 import Illustrator from '../public/svg/illustrator.svg';
@@ -17,31 +18,33 @@ const Proficient = () => {
 	return (
 		<section className='border-b-3'>
 			<Container>
-				<div className='flex justify-between'>
+				<div className='flex justify-between px-2'>
 					<p>my·tools</p>
 					<p>003</p>
 				</div>
 
-				<div className='pb-10 mt-10'>
-					<div className='grid items-center grid-cols-3 gap-x-2 gap-y-6 justify-items-center'>
-						<Html className='w-16' />
-						<Css className='w-16' />
-						<Tailwindcss className='w-20' />
+				<div className='py-10 sm:py-16 md2:py-20'>
+					<ContainerX>
+						<div className='grid items-center grid-cols-3 gap-x-2 gap-y-6 justify-items-center'>
+							<Html className='w-16' />
+							<Css className='w-16' />
+							<Tailwindcss className='w-20' />
 
-						<Javascript className='w-16' />
-						<Vue className='w-16' />
-						<React className='w-16' />
+							<Javascript className='w-16' />
+							<Vue className='w-16' />
+							<React className='w-16' />
 
-						<Git className='w-16' />
-						<Figma className='w-12' />
-						<Illustrator className='w-16' />
+							<Git className='w-16' />
+							<Figma className='w-12' />
+							<Illustrator className='w-16' />
 
-						{/* <Photoshop className='w-16' /> */}
+							{/* <Photoshop className='w-16' /> */}
 
-						<Shopify className='w-16' />
-						<Liquid className='w-24' />
-						<Firefox className='w-16' />
-					</div>
+							<Shopify className='w-16' />
+							<Liquid className='w-24' />
+							<Firefox className='w-16' />
+						</div>
+					</ContainerX>
 				</div>
 			</Container>
 		</section>
