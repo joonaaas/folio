@@ -11,14 +11,15 @@ const Services = () => {
 					<p>001</p>
 				</div>
 				<ContainX>
-					<div className='py-10 md:flex sm:py-16 md2:py-20'>
-						<div className='border-opacity-40 md:w-2/12 md:border-t-3 md:mt-4 md:mr-3.5'></div>
-						<div className='text-xl md:text-2xl'>
-							<p className='pb-4 '>
+					<div className='py-10 md:flex sm:py-16 md2:py-20 lg:py-36'>
+						<div className='border-opacity-40 md:w-2/12 md:border-t-3 md:mt-4 md:mr-3.5 lg:w-1/4 lg:mt-6'></div>
+						<div className='text-lg md:text-2xl lg:text-3xl'>
+							<p className='pb-4 leading-relaxed'>
 								I&apos;m a <span className='font-heading'>front-end</span> web
-								developer who builds & customize{' '}
-								<span className='text-green-dark'>Shopify Theme</span> for
-								online entrepreneurs to help establish a better personal brand.
+								developer + designer specializing in{' '}
+								<span className='text-green-dark '>Shopify Themes</span>,
+								helping small online stores bringing their designs to life
+								efficiently.
 							</p>
 							<Checklist />
 						</div>

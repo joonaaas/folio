@@ -12,12 +12,12 @@ const Contact = () => {
 				<p>004</p>
 			</div>
 
-			<div className='flex flex-col items-center justify-center py-10 pb-12 sm:py-16 md2:py-20'>
-				<div className='mb-2 w-28'>
+			<div className='flex flex-col items-center justify-center py-10 pb-12 leading-relaxed sm:py-16 md2:py-20 lg:py-40'>
+				<div className='mb-2 w-28 md:w-32'>
 					<Image src={Chat} alt='Message me?' />
 				</div>
 				<h2 className='text-3xl font-heading'>Need my help?</h2>
-				<p className='px-4 text-lg text-center md:text-xl'>
+				<p className='px-4 text-lg text-center md:text-xl lg:my-2'>
 					Get in touch today if you’d like to work together!
 				</p>
 				<div className='flex items-center justify-center mt-4'>

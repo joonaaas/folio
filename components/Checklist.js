@@ -27,7 +27,7 @@ const Checklist = () => {
 					}`}></div>
 			</ul>
 			{/* This will show on >640px */}
-			<ul className='hidden sm:flex'>
+			<ul className='hidden leading-relaxed sm:flex'>
 				<div>
 					<List content='Troubleshooting. ' />
 					<List content='PSD to HTML/Shopify.' />

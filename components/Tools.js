@@ -23,9 +23,9 @@ const Proficient = () => {
 					<p>003</p>
 				</div>
 
-				<div className='py-10 sm:py-16 md2:py-20'>
+				<div className='py-10 sm:py-16 md2:py-20 lg:py-36'>
 					<ContainerX>
-						<div className='grid items-center grid-cols-3 gap-x-2 gap-y-6 justify-items-center'>
+						<div className='grid items-center grid-cols-3 gap-x-2 gap-y-6 justify-items-center lg:gap-y-14'>
 							<Html className='w-16' />
 							<Css className='w-16' />
 							<Tailwindcss className='w-20' />

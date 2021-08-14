@@ -14,16 +14,18 @@ const Sample = () => {
 					<p>002</p>
 				</div>
 				<div className='py-10 sm:py-16 md2:py-20'>
-					{/* Mob */}
-					<div className='flex items-center justify-center px-4 filter drop-shadow-lg sm:hidden'>
-						<Image src={samp1Mob} alt='' objectFit='contain' priority />
-					</div>
-					{/* Desk */}
-					<ContainX>
-						<div className='items-center justify-center hidden mx-4 filter drop-shadow-lg sm:flex'>
-							<Image src={samp1Desk} alt='' objectFit='contain' priority />
+					<div className='lg:flex lg:items-center lg:justify-center'>
+						{/* Desk */}
+						<div className='w-full max-w-5xl px-6 mx-auto xxs:px-8 xs:px-10 sm:px-4 md:px-10 lg:px-0 lg:mx-0 lg:max-w-none'>
+							<div className='items-center justify-center hidden mx-4 filter drop-shadow-lg sm:flex lg:mx-0 lg:block'>
+								<Image src={samp1Desk} alt='' objectFit='contain' priority />
+							</div>
 						</div>
-					</ContainX>
+						{/* Mob */}
+						<div className='flex items-center justify-center px-4 filter drop-shadow-lg sm:hidden lg:block lg:px-0'>
+							<Image src={samp1Mob} alt='' objectFit='contain' priority />
+						</div>
+					</div>
 
 					<ContainX>
 						<div className='flex items-center justify-between pt-4 sm:pt-8'>
